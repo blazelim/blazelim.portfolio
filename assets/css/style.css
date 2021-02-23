@@ -17,7 +17,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     top: 0;
     background-size: cover;
     background-position: center;
@@ -257,6 +256,40 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.work-hover:hover {
+.work-hover {
     filter: brightness(0.4);
+}
+
+.work-hover:hover {
+    filter: brightness(1);
+}
+
+.contact-row {
+    flex: 2 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.contact-row a {
+    text-decoration: none;
+    color:#2F4BB4;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resume-dl {
+    flex: 2 85%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #2F4BB4;
+    font-style: none;
+}
+
+.resume-dl a {
+    color: #2F4BB4;
+    text-decoration: none;
 }
