@@ -11,6 +11,7 @@ body{
    background-color: #daddff;
 }
 
+/*header styling start */
 header {
     padding: 40px 0px 20px 0px;
     background-color:#222656;
@@ -37,6 +38,7 @@ header h1 a {
     font-size: 55px;
 }
 
+/*navigationbar styling*/
 header nav{
     margin: 7px 0;
 }
@@ -91,6 +93,8 @@ header nav ul li a:hover {
         font-size: 55px;
     }
 }
+
+/*header styling end */
 
 .hero {
     background-image: url("../media/herobanner.jpg");
