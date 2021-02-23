@@ -68,8 +68,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color:var(--secondary-color);
+    background: #5CB7EF;
+    color:#222656;
     border-radius: 15px;
     text-shadow: none;
 }
@@ -126,7 +126,7 @@ header nav ul li a:hover {
 }
 
 .section-head {
-    text-align: right;
+    text-align: left;
     vertical-align: top;
     flex: 1 15%;
     border: #222656;
@@ -141,7 +141,7 @@ header nav ul li a:hover {
 }
 
 .about-me-img {
-    flex: 2 30%;
+    flex: 2 15%;
     margin-right: 40px;
 }
 
@@ -150,7 +150,7 @@ header nav ul li a:hover {
 }
 
 .aboutmepwrapper {
-    flex: 3 55%;
+    flex: 3 70%;
 }
 
 .about-me-p {
@@ -161,5 +161,76 @@ header nav ul li a:hover {
 @media screen and (max-width: 768px) {
     .section-piece {
         flex-wrap: wrap;
+    }
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    flex: 2 85%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.large-work {
+    text-decoration: none;
+    color: #222656;
+    height: 400px;
+    width: 100%;
+    border: #5CB7EF;
+    border-style: solid;
+    border-width: 4px;
+    background-image: url("../media/hero-bg.jpg");
+    background-size:cover;
+    margin-bottom: 10px;
+}
+
+.large-work div {
+    margin-top: 300px;
+    width: 20%;
+}
+
+.small-work div {
+    margin-top: 100px;
+}
+
+.in-work-text {
+    color:#222656;
+    background: #5CB7EF;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px 10px 10px 40px;
+    position: relative;
+}
+
+.small-work {
+    border: #5CB7EF;
+    border-style: solid;
+    border-width: 4px;
+    background-image: url("../media/hero-bg.jpg");
+    background-size:cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left-small-work {
+    flex: 1 50%;
+    margin-right: 10px;
+}
+
+.right-small-work {
+    flex: 2 50%;
+    margin-left: 10px;
+}
+
+.small-work div {
+    width: 40%;
+    margin-bottom: 20px;
+}
