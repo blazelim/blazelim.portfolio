@@ -10,6 +10,9 @@ A website showing blaze lim's portfolio as well as some of his works. Contact in
 ## Website
 *https://blazelim.github.io/blazelim.portfolio/
 
+## Github
+https://github.com/blazelim/blazelim.portfolio
+
 Contribution
 Made with <3 by Blaze
 
