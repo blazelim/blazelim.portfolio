@@ -190,7 +190,7 @@ header nav ul li a:hover {
     border: #5CB7EF;
     border-style: solid;
     border-width: 4px;
-    background-image: url("../media/hero-bg.jpg");
+    background-image: url("../media/travelersgathering.png");
     background-size:cover;
     margin-bottom: 10px;
 }
@@ -230,7 +230,7 @@ header nav ul li a:hover {
 }
 
 .boots-work {
-    background-image: url("../media/boots.jpg");
+    background-image: url("../media/hero-bg.jpg");
     background-position: center;
 }
 
