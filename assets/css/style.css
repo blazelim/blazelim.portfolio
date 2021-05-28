@@ -190,7 +190,7 @@ header nav ul li a:hover {
     border: #5CB7EF;
     border-style: solid;
     border-width: 4px;
-    background-image: url("../media/travelersgathering.png");
+    background-image: url("../media/manageit.png");
     background-size:cover;
     margin-bottom: 10px;
 }
@@ -234,8 +234,8 @@ header nav ul li a:hover {
     background-position: center;
 }
 
-.maple-work {
-    background-image: url("../media/maple.jpg");
+.git-work {
+    background-image: url("../media/travelersgathering.png");
     background-position: center;
 }
 
